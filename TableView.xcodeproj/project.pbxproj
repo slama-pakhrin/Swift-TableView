@@ -16,6 +16,8 @@
 		E905EAEA2B69CF4A0029D87D /* TableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E905EAE92B69CF4A0029D87D /* TableViewTests.swift */; };
 		E905EAF42B69CF4A0029D87D /* TableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E905EAF32B69CF4A0029D87D /* TableViewUITests.swift */; };
 		E905EAF62B69CF4A0029D87D /* TableViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E905EAF52B69CF4A0029D87D /* TableViewUITestsLaunchTests.swift */; };
+		E905EB032B69D2980029D87D /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E905EB022B69D2980029D87D /* CustomTableViewCell.swift */; };
+		E905EB052B69DBF00029D87D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E905EB042B69DBF00029D87D /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		E905EAEF2B69CF4A0029D87D /* TableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E905EAF32B69CF4A0029D87D /* TableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewUITests.swift; sourceTree = "<group>"; };
 		E905EAF52B69CF4A0029D87D /* TableViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E905EB022B69D2980029D87D /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		E905EB042B69DBF00029D87D /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +106,9 @@
 				E905EAD22B69CF470029D87D /* AppDelegate.swift */,
 				E905EAD42B69CF470029D87D /* SceneDelegate.swift */,
 				E905EAD62B69CF470029D87D /* ViewController.swift */,
+				E905EB042B69DBF00029D87D /* DetailViewController.swift */,
 				E905EAD82B69CF470029D87D /* Main.storyboard */,
+				E905EB022B69D2980029D87D /* CustomTableViewCell.swift */,
 				E905EADB2B69CF490029D87D /* Assets.xcassets */,
 				E905EADD2B69CF490029D87D /* LaunchScreen.storyboard */,
 				E905EAE02B69CF490029D87D /* Info.plist */,
@@ -260,6 +266,8 @@
 			files = (
 				E905EAD72B69CF470029D87D /* ViewController.swift in Sources */,
 				E905EAD32B69CF470029D87D /* AppDelegate.swift in Sources */,
+				E905EB052B69DBF00029D87D /* DetailViewController.swift in Sources */,
+				E905EB032B69D2980029D87D /* CustomTableViewCell.swift in Sources */,
 				E905EAD52B69CF470029D87D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
